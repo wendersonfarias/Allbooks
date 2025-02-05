@@ -9,7 +9,7 @@ on:
 
 jobs:
   testes:
-
+    timeout-minutes: 10  # Define um timeout de 10 minutos
     runs-on: ubuntu-latest
 
     steps:
